@@ -1,0 +1,19 @@
+.container{
+	width: 600px;
+	height: 400px;
+	border: 1px solid;
+	overflow: auto;
+}
+
+.item_content{
+	display: inline-block;
+	width: calc(100% / 3);
+	height: 200px;
+	border: 1px solid gray;
+	box-sizing: border-box;
+}
+
+.item{
+	height: 100%;
+	width: 100%;
+}
