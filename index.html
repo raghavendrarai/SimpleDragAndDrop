@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Drag & Drop</title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"></link>
+	</head>
+	<body ng-app="myApp">
+		<div class="container" ng-controller="myController">
+			<div class="item_content" ng-repeat="item in list track by $index" draggrble-container>
+				<div class="item" draggable-item draggable="true">{{item}}</div>
+			</div>		
+		</div>
+	</body>
+<html>
